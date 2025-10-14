@@ -1,10 +1,7 @@
 {
   "version": 2,
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/api/install.sh"
-    }
+  "rewrites": [
+    { "source": "/", "destination": "/api/install.sh" }
   ],
   "headers": [
     {
